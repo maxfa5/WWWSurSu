@@ -256,6 +256,7 @@ body{
     font-weight: 500;
     line-height: 24px; /* 133.333% */
 }
+
 .textForComment{
     display: flex;
     flex-direction: column;
@@ -269,6 +270,7 @@ body{
     font-weight: 400;
     line-height: normal;
 }
+
 #readArticle{
     margin-top: 50px;
     border-radius: 8px;
@@ -311,6 +313,7 @@ body{
     width: 27%;
     left: 100px;
 }
+
 #SignInp{
     color: #FFF;
 }
