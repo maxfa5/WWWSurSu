@@ -3,6 +3,7 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
+    font-family: 'AR One Sans', sans-serif;
 }
 
 #main{
@@ -57,7 +58,6 @@ body{
     margin-top:0;
     color: #FFF;
     text-align: left;
-    font-family: SFProDisplay;
     font-size: 50px;
     font-style: bold;
     font-weight: 600;
@@ -75,7 +75,6 @@ body{
 
 #newBook{
     color: #FFF;
-    font-family: SFProDisplay;
     font-size: 15px;
     font-style: bold;
     font-weight: 400;
@@ -87,7 +86,6 @@ body{
 .blabla{
     color: #FFF;
     width: 60%;
-    font-family: SFCompactText;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -106,14 +104,15 @@ body{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 #search{
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 500px;
     height: 10%;
-    width: 60%;
+    width: 56%;
     border-radius: 4px 0px 0px 0px;
     background: #FFF;
     box-shadow: 0px -2px 0px 0px rgba(223, 223, 223, 0.50) inset;
@@ -142,7 +141,6 @@ body{
 
 .glavTravelPro{
     color: #1C2E3D;
-    font-family: SFProDisplay;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -210,7 +208,6 @@ body{
 
 #articlGlav{
     color: #FFF;
-    font-family: SFProDisplay;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -251,7 +248,6 @@ body{
 
 .tittleComent{
     color: #FFF;
-    font-family: SFProDisplay;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -265,7 +261,6 @@ body{
 
 .date{
     color: rgba(255, 255, 255, 0.50);
-    font-family: SFProText;
     font-size: 11px;
     font-style: normal;
     font-weight: 400;
@@ -304,7 +299,6 @@ body{
 
 #glavSignIn{
     color: #FFF;
-    font-family: SFProDisplay;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -335,16 +329,34 @@ body{
     color: #FFF;
     font-size: 20px;
     display: flex;
-    width: 274px;
+    width: 500px;
     height: 80px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
     position: relative;
     left:-15%;
-    bottom: -100%;
+    bottom: -66%;
+    cursor: pointer;
 }
 
 #form{
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #FFF;
+    color: #1C2E3D;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left:-15%;
+    bottom: -66%;
+}
+
+.inputdann{
+    width: 60%;
+    margin: 5%;
+    height: 15%;
+    border-radius: 0ch;
+    border-width: 0;
 }
