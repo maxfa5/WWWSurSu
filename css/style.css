@@ -161,7 +161,9 @@ body{
     height: 90%;
     width: 15%;
     border-radius: 8px;
-    background-color: aqua;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #footer{
