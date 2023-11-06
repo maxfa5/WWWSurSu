@@ -325,20 +325,12 @@ body{
 }
 
 #SignInButton{
-    border-radius: 0 0 8px 8px;
-    border-width: 0ch;
     background: #73AFBA;
     color: #FFF;
     font-size: 20px;
-    display: flex;
     width: 500px;
     height: 80px;
-    justify-content: center;
-    align-items: center;
     flex-shrink: 0;
-    position: relative;
-    left:-15%;
-    bottom: -66%;
     cursor: pointer;
 }
 
