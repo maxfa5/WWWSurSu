@@ -332,6 +332,8 @@ body{
     height: 80px;
     flex-shrink: 0;
     cursor: pointer;
+    position: relative;
+    bottom: -10px;
 }
 
 #form{
