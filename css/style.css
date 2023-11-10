@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -6,9 +6,9 @@ body{
     font-family: 'AR One Sans', sans-serif;
 }
 
-#main{
+#main {
     padding: 30px;
-    background:url("../img/Background.jpg");
+    background: url("../img/Background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,15 +16,15 @@ body{
     position: relative;
 }
 
-#header{
+#header {
     display: flex;
     width: 100%;
     flex-direction: row;
-    margin-bottom:50px ;
+    margin-bottom: 50px;
 }
 
-#society{
-    background-image:url(../img/Stacked\ Group.png) ;
+#society {
+    background-image: url(../img/Stacked\ Group.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@ body{
     width: 120px;
 }
 
-#logoText{
+#logoText {
     color: #FFF;
     text-align: center;
     font-family: SFProDisplay;
@@ -44,17 +44,22 @@ body{
     margin: 0 auto;
 }
 
-#group{
+#group {
     background-image: url(../img/Group.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 28px;
     width: 65px;
+    margin: 0 10% 0 0;
 }
 
-#mainText{
-    margin-top:0;
+.nightText {
+    color: #FFF;
+}
+
+#mainText {
+    margin-top: 0;
     color: #FFF;
     text-align: left;
     font-size: 50px;
@@ -65,24 +70,23 @@ body{
     width: 450px;
 }
 
-#centerPic{
+#centerPic {
     margin-left: 100px;
     display: flex;
     width: 40%;
     flex-direction: column;
 }
 
-#newBook{
+#newBook {
     color: #FFF;
     font-size: 15px;
     font-style: bold;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2px;
-
 }
 
-.blabla{
+.blabla {
     color: #FFF;
     width: 60%;
     font-size: 18px;
@@ -92,7 +96,7 @@ body{
     width: 500px;
 }
 
-#buyTheBook{
+#buyTheBook {
     border-radius: 8px;
     background: #E8594E;
     color: #FFF;
@@ -106,7 +110,7 @@ body{
     cursor: pointer;
 }
 
-#search{
+#search {
     display: flex;
     flex-direction: row;
     margin-left: 500px;
@@ -117,10 +121,9 @@ body{
     box-shadow: 0px -2px 0px 0px rgba(223, 223, 223, 0.50) inset;
     position: absolute;
     bottom: 0;
-
 }
 
-#inputValueSearch{
+#inputValueSearch {
     margin: 3px;
     width: 95%;
     height: 92%;
@@ -128,7 +131,20 @@ body{
     border: 0;
 }
 
-#lupa{
+#nightVision {
+    width: 50px;
+    height: 50px;
+}
+
+.night {
+    background-color: black;
+}
+
+.day {
+    background-color: white;
+}
+
+#lupa {
     position: relative;
     right: 10px;
     margin: 10px;
@@ -138,17 +154,17 @@ body{
     background-color: #1C2E3D;
 }
 
-.glavTravelPro{
-    color: #1C2E3D;
+.glavTravelPro {
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
-    line-height: 80px; /* 125% */
+    line-height: 80px;
+    /* 125% */
     width: 450px;
     margin-left: 100px;
 }
 
-#picList{
+#picList {
     margin-left: 100px;
     display: flex;
     flex-direction: row;
@@ -156,7 +172,7 @@ body{
     width: 100%;
 }
 
-.picBlock{
+.picBlock {
     margin: 50px;
     height: 90%;
     width: 15%;
@@ -164,10 +180,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    checK:dasdasfo;
+    checK: dasdasfo;
 }
 
-#footer{
+#footer {
     display: flex;
     flex-direction: row;
     padding: 50px;
@@ -177,17 +193,16 @@ body{
     box-shadow: 0px 1px 0px 0px rgba(179, 179, 179, 0.50) inset;
 }
 
-.stolb{
+.stolb {
     display: flex;
     flex-direction: column;
     margin: 20px;
     padding: 50px;
     height: 90%;
     width: 20%;
-    
 }
 
-#articleStories{
+#articleStories {
     height: 92vh;
     width: 100%;
     margin-top: 100px;
@@ -200,24 +215,25 @@ body{
     justify-content: end;
 }
 
-#Article{
+#Article {
     height: 40%;
-    margin-right:350px ;
-    width:30%;
+    margin-right: 350px;
+    width: 30%;
     position: relative;
     bottom: -40%;
 }
 
-#articlGlav{
+#articlGlav {
     color: #FFF;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
-    line-height: 80px; /* 125% */
+    line-height: 80px;
+    /* 125% */
     width: 450px;
 }
 
-#stories{
+#stories {
     position: relative;
     right: 0;
     height: 100%;
@@ -226,12 +242,12 @@ body{
     opacity: 0.9439;
 }
 
-#whiteGlav{
+#whiteGlav {
     color: #FFF;
     width: 200px;
 }
 
-.comment{
+.comment {
     display: flex;
     width: 368px;
     height: 102px;
@@ -242,26 +258,27 @@ body{
     flex-shrink: 0;
 }
 
-.avatar{
+.avatar {
     width: 48px;
     height: 48px;
     flex-shrink: 0;
 }
 
-.tittleComent{
+.tittleComent {
     color: #FFF;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 133.333% */
+    line-height: 24px;
+    /* 133.333% */
 }
 
-.textForComment{
+.textForComment {
     display: flex;
     flex-direction: column;
 }
 
-.date{
+.date {
     color: rgba(255, 255, 255, 0.50);
     font-size: 11px;
     font-style: normal;
@@ -269,7 +286,7 @@ body{
     line-height: normal;
 }
 
-#readArticle{
+#readArticle {
     margin-top: 50px;
     border-radius: 8px;
     background: #73AFBA;
@@ -284,7 +301,7 @@ body{
     cursor: pointer;
 }
 
-#SignIn{
+#SignIn {
     height: 92vh;
     width: 80%;
     margin: 0 auto;
@@ -293,38 +310,39 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 100px ;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#glavSignIn{
+#glavSignIn {
     color: #FFF;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
-    line-height: 60px; /* 125% */
+    line-height: 60px;
+    /* 125% */
 }
 
-#textForSignIn{
+#textForSignIn {
     position: relative;
     top: 50%;
     width: 27%;
     left: 100px;
 }
 
-#SignInp{
+#SignInp {
     color: #FFF;
 }
 
-#formsForSignIn{
+#formsForSignIn {
     position: relative;
     right: 0;
     bottom: 0;
 }
 
-#SignInButton{
+#SignInButton {
     background: #73AFBA;
     color: #FFF;
     font-size: 20px;
@@ -336,7 +354,7 @@ body{
     bottom: -10px;
 }
 
-#form{
+#form {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -345,11 +363,11 @@ body{
     width: 500px;
     height: 300px;
     position: relative;
-    left:-15%;
+    left: -15%;
     bottom: -66%;
 }
 
-.inputdann{
+.inputdann {
     width: 60%;
     margin: 5%;
     height: 15%;
