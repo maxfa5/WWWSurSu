@@ -5,7 +5,17 @@ body {
     height: 100vh;
     font-family: 'AR One Sans', sans-serif;
 }
+.hello_block{
+    text-align:center;
+    background-color:white;
+    color:black;
 
+}
+.closeJS{
+    background-color:red;
+    height:50px;
+    width:50px;
+}
 #main {
     padding: 30px;
     background: url("../img/Background.jpg");
@@ -33,6 +43,17 @@ body {
 }
 
 #logoText {
+    color: #FFF;
+    text-align: center;
+    font-family: SFProDisplay;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+.logoText {
     color: #FFF;
     text-align: center;
     font-family: SFProDisplay;
@@ -183,7 +204,7 @@ body {
     checK: dasdasfo;
 }
 
-#footer {
+.footer {
     display: flex;
     flex-direction: row;
     padding: 50px;
